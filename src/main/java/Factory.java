@@ -12,16 +12,16 @@ public class Factory {
     DisplayFactory displayFactory = new DisplayFactory();
     OutputFactory outputFactory = new OutputFactory();
 
-    public AbstractGlue createGlue(GlueType g, DisplayType d, OutputType o) {
-        return new GlueFactory().makeGlue(g, createDisplay(d), createOutput(o));
+    public AbstractGlue createGlue(GlueType glueType, DisplayType displayType, OutputType outputType) {
+        return new GlueFactory().makeGlue(glueType, createDisplay(displayType), createOutput(outputType));
     }
 
-    private IDisplay createDisplay(DisplayType dType) {
-        return displayFactory.makeDisplay(dType);
+    private IDisplay createDisplay(DisplayType displayType) {
+        return displayFactory.makeDisplay(displayType);
     }
 
-    private AbstractOutput createOutput(OutputType oType) {
-        return outputFactory.makeOutput(oType);
+    private AbstractOutput createOutput(OutputType outputType) {
+        return outputFactory.makeOutput(outputType);
 
     }
 
