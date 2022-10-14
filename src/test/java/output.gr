@@ -1,0 +1,38 @@
+---Raw Output---
+Glue Name: SomeName
+Glue Type: SomeType
+Glue Size (mm): 12
+Glue Adheres to Plastic: true
+Glue Adheres to Wood: false
+Glue Adheres to Metal: true
+Glue Adheres to Glass: false
+Glue Adheres to Pottery: false
+Glue Curing Time (min): 1
+Glue Price (£): 3.0
+
+---Friendly Output---
+Case 1
+Glue Name: SomeOtherName
+Glue Type: SomeOtherType
+Glue Size: 15 mm
+Glue Adheres to: Wood, Glass
+Glue Not to be used on: Plastic, Metal, Pottery
+Glue Curing Time: 1 min
+Glue Price: 6.0£
+
+Case 2
+Glue Name: SomeOtherName
+Glue Type: SomeOtherType
+Glue Size: 10 mm
+Glue Not to be used on: Plastic, Wood, Metal, Glass, Pottery
+Glue Curing Time: 6 min
+Glue Price: 4.0£
+
+Case 3
+Glue Name: SomeOtherName
+Glue Type: SomeOtherType
+Glue Size: 12 mm
+Glue Adheres to: Plastic, Wood, Metal, Glass, Pottery
+Glue Curing Time: 8 min
+Glue Price: 2.0£
+
